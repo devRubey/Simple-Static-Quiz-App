@@ -1,0 +1,87 @@
+/* Reset + base setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Quiz container */
+.quiz-container {
+  background-color: #ffffff10;
+  padding: 2rem;
+  border-radius: 20px;
+  max-width: 600px;
+  width: 90%;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  backdrop-filter: blur(10px);
+}
+
+/* Header */
+.quiz-container h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #00ffff;
+}
+
+/* Question */
+.quiz-container p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+/* Form options */
+form label {
+  display: block;
+  background-color: #ffffff20;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form label:hover {
+  background-color: #00ffff30;
+}
+
+input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+/* Button */
+button {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #00ffff;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #00e0ff;
+}
+
+/* Result placeholder */
+.result-placeholder {
+  margin-top: 1rem;
+  text-align: center;
+  font-style: italic;
+  color: #ddd;
+}
+
